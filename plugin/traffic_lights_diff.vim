@@ -5,9 +5,9 @@ highlight DiffChange term=bold         ctermbg=black ctermfg=white  cterm=bold g
 highlight DiffDelete term=none         ctermbg=blue  ctermfg=blue   cterm=none guibg=DarkBlue   guifg=DarkBlue gui=none
 if &background == "light"
 	" Changes when bg=white fg=black
-	highlight DiffAdd                   ctermfg=black cterm=bold guibg=lightgreen guifg=black
-	highlight DiffText   ctermbg=yellow ctermfg=red   cterm=bold guibg=yellow     guifg=darkred
-	highlight DiffChange ctermbg=none   ctermfg=none  cterm=bold guibg=White      guifg=Black
+	highlight DiffAdd                   ctermfg=black cterm=bold guibg=green      guifg=black
+	highlight DiffText   ctermbg=yellow ctermfg=red   cterm=bold guibg=yellow     guifg=red
+	highlight DiffChange ctermbg=none   ctermfg=none  cterm=bold guibg=white      guifg=black
 	highlight DiffDelete                                         guibg=lightblue  guifg=lightblue
 endif
 
@@ -19,10 +19,10 @@ highlight diffLine    term=bold ctermbg=magenta ctermfg=white  cterm=bold guibg=
 highlight diffFile    term=bold ctermbg=yellow  ctermfg=black  cterm=none guibg=DarkYellow  guifg=white gui=none
 if &background == "light"
 	" Changes when bg=white fg=black
-	highlight diffRemoved cterm=none guibg=LightRed     guifg=black
-	highlight diffAdded   cterm=none guibg=LightGreen   guifg=black
-	highlight diffChanged cterm=none guibg=LightYellow  guifg=black
-	highlight diffLine    cterm=none guibg=LightMagenta guifg=black
-	highlight diffFile    cterm=none guibg=LightYellow  guifg=black
+	highlight diffRemoved cterm=none guibg=Red     guifg=black
+	highlight diffAdded   cterm=none guibg=Green   guifg=black
+	highlight diffChanged cterm=none guibg=Yellow  guifg=black
+	highlight diffLine    cterm=none guibg=Magenta guifg=black
+	highlight diffFile    cterm=none guibg=Yellow  guifg=black
 endif
 
