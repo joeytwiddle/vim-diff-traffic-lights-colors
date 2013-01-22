@@ -5,10 +5,10 @@ highlight DiffChange term=bold         ctermbg=black ctermfg=white  cterm=bold g
 highlight DiffDelete term=none         ctermbg=blue  ctermfg=blue   cterm=none guibg=DarkBlue   guifg=DarkBlue gui=none
 if &background == "light"
 	" Changes when bg=white fg=black
-	highlight DiffAdd    ctermfg=black  cterm=bold guibg=lightgreen guifg=black
-	highlight DiffText   ctermbg=yellow ctermfg=red cterm=bold guibg=yellow     guifg=darkred
-	highlight DiffChange ctermbg=white ctermfg=black  cterm=bold guibg=White      guifg=Black
-	highlight DiffDelete guibg=lightblue  guifg=lightblue
+	highlight DiffAdd                   ctermfg=black cterm=bold guibg=lightgreen guifg=black
+	highlight DiffText   ctermbg=yellow ctermfg=red   cterm=bold guibg=yellow     guifg=darkred
+	highlight DiffChange ctermbg=none   ctermfg=none  cterm=bold guibg=White      guifg=Black
+	highlight DiffDelete                                         guibg=lightblue  guifg=lightblue
 endif
 
 " When viewing a diff or patch file
